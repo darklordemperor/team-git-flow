@@ -13,14 +13,16 @@ change.
 
 All six branches are long-lived in this experiment:
 
-| Branch | Role |
-| --- | --- |
-| `main` | Production branch and the equivalent of `master` in the diagram; it is the default branch. |
-| `dev` | Integration branch for completed feature work. |
+| Branch    | Role                                                                                        |
+| --------- | ------------------------------------------------------------------------------------------- |
+| `main`    | Production branch and the equivalent of `master` in the diagram; it is the default branch.  |
+| `dev`     | Integration branch for completed feature work.                                              |
 | `feature` | Shared branch for feature development. Do not create `feature/*` branches during this test. |
-| `release` | Branch for preparing and stabilizing a normal release. |
-| `staging` | CI/CD validation and staging-environment branch. |
-| `hotfix` | Branch for urgent production fixes. |
+| `release` | Branch for preparing and stabilizing a normal release.                                      |
+| `staging` | CI/CD validation and staging-environment branch.                                            |
+| `hotfix`  | Branch for urgent production fixes.                                                         |
+
+Test release flow commit
 
 Do not delete these branches after merges while this Git-flow experiment is active.
 
