@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+// test flow git
 void main() {
   runApp(const ProviderScope(child: MainApp()));
 }
 
+//
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
@@ -13,11 +15,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Center(
-          child: ExcludeSemantics(
-            child: FlutterLogo(size: 120),
-          ),
-        ),
+        body: Center(child: ExcludeSemantics(child: FlutterLogo(size: 120))),
       ),
     );
   }
