@@ -1,5 +1,7 @@
 # Team Git Flow Test Instructions
 
+## Test Git commit on release
+
 ## Purpose
 
 This repository is a test project for practicing the team's Git workflow. The source diagram is
